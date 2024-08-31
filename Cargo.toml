@@ -1,0 +1,10 @@
+[package]
+name = "decentralized_voting"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ic-cdk = "0.5.0"   # For interacting with the Internet Computer
+ic-cdk-macros = "0.5.0"  # For writing canister code
+serde = { version = "1.0", features = ["derive"] } # For serialization and deserialization
+candid = "0.7.1"  # For interface description language (IDL)
